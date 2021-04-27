@@ -39,7 +39,7 @@ Then, we calculate the gradient of the discriminator and the generator using the
 
 This is the gif of the training process for 200 epoch. For every epoch, I make the generator produces each number from 0 to 9 by specifying label 0 to 9 with a fixed noise. 
 
-![](https://raw.githubusercontent.com/zokovi/cDCGAN-MNIST/master/cdcgan.gif
+![](https://raw.githubusercontent.com/zokovi/cDCGAN-MNIST/master/cdcgan.gif)
 
 ## Closing Statement
 

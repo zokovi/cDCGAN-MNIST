@@ -6,7 +6,7 @@ This cDCGAN model is trained using MNIST handwritten digits data, and after trai
 This implementation is based on DCGAN tutorial by Tensorflow.
 https://www.tensorflow.org/tutorials/generative/dcgan
 
-The difference is instead just training the GAN using image only, cGAN also uses label to train the neural network. And also i had to convert the sequential API used by CDGAN to Functional API because the cDCGAN model have to take two inputs (image and label) and the sequential API are not suitable for this purpose.
+The difference is instead of just training the GAN using image only, cGAN also uses label to train the neural network. And also i had to convert the sequential API used by CDGAN to Functional API because the cDCGAN model have to take two inputs (image and label) and the sequential API are not suitable for this purpose.
 
 I also personally believe that cGAN is much more useful than GAN because we can control the output of the generator just by specifying labels.
 

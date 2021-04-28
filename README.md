@@ -1,6 +1,6 @@
 # cDCGAN-MNIST
 
-This Repository contain an IPython notebook of an example implementation of conditional Deep Convolutional Generative Adversarial Networks or cDCGAN or DC cGAN.
+This Repository contain an IPython notebook of an example implementation of conditional Deep Convolutional Generative Adversarial Networks or cDCGAN or DC cGAN using Tensorflow.Keras Funtional API.
 This cDCGAN model is trained using MNIST handwritten digits data, and after trained the generator can output MNIST-like handwritten digits by just specifying a label (number from 0-9) and a vector of 100 noise.
 
 This implementation is based on DCGAN tutorial by Tensorflow.
